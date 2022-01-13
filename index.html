@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>OOP_Current Weather</title>
+</head>
+<body>
+<div class="mx-3 my-3 border text-center" style="width: 120px; height: 150px" id="weather">
+    <p id="description"></p>
+    <h1 id="temp"></h1>
+    <p id="location"></p>
+</div>
+<div class="mx-3 my-3">
+    <form id="change-city">
+        <label for="city-name">Enter Different City:</label>
+        <br>
+        <input type="text" id="city-name">
+        <br>
+        <button id="button" type="submit" class="btn btn-light" value="Save changes">Save changes</button>
+    </form>
+</div>
+</div>
+<script src="classes/LS.js"></script>
+<script src="classes/Weather.js"></script>
+<script src="classes/UI.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
